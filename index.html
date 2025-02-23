@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+    <script src="https://kit.fontawesome.com/8c0c6ab96e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="con">
+    <header>
+      <div class="con">
+      <div class="nav">
+      <div class="navbar">
+          
+          <div class="nav-options" id="nav-links">
+              <a href="index.html">HOME</a>
+              <a href="about.html">ABOUT</a>
+              <a href="service.html">SERVICES</a>
+          </div>
+          <div class="icon" id="nav-toggle">
+             <i class="fa-solid fa-bars"></i>
+          </div> 
+      </div>
+      </div>
+      <div class="nav-logo">
+        <div class="con">
+           <p class="Restaurant-name">Jai Jinendra Sa<br></p>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <div class="modal fade" id="bookModal" tabindex="-1" aria-labelledby="bookModalLabel" aria-hidden="true" >
+    <div class="modal-dialog">
+      <div class="modal-content" style="background-color: #7d0002; margin: 0px; padding: 0px;">
+        <div class="modal-header">
+          <h5 class="modal-title" id="bookModalLabel" style="color:white;">BOOK A TABLE</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h5>Which branch of Restaurant</h5>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select the branch</option>
+            <option value="1">Shri Jinendra Kripa Vijay Nagar</option>
+            <option value="2">Shri Jinendra Kripa Sarvate Bus Stand</option>
+            <option value="3">Shri Jinendra Kripa South Tukoganj</option>
+          </select>
+          <br>
+          <div class="row">
+            <div class="col">
+              <h5> Your Name</h5>
+              <input type="text" class="form-control" placeholder="Your Name" aria-label="First name">
+            </div>
+            <div class="col">
+              <h5> Your Email</h5>
+              <input type="email" class="form-control" placeholder="Email" aria-label="Last name">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-12">
+              <h5>Contact </h5>
+              <input type="tel" class="form-control" placeholder="Phone" aria-label="First name">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col">
+              <h5>Date</h5>
+              <input type="date" class="form-control" placeholder="date" aria-label="First name">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col">
+              <h5>From </h5>
+              <input type="time" class="form-control" placeholder="time" aria-label="First name">
+            </div>
+          
+              <div class="col">
+                <h5>To</h5>
+                <input type="time" class="form-control" placeholder="time" aria-label="First name">
+              </div>
+            </div>
+         <br>
+         <div class="col">
+          <h5>Total Guest</h5>
+          <input type="number" class="form-control" placeholder="number" aria-label="First name">
+        </div>
+      </div>
+        </div>
+  
+        <div class="modal-footer">
+          
+          <button type="button" class="btn btn-danger">Book a table</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+  <div class="hero-section">
+    <div class="con">
+      <div>
+          <div class="hero-photo"></div>
+      </div>
+    </div>
+  </div>
+    
+  </div>
+  <div class="con">
+  <h3>Our Items</h3>
+  <div class="Dishes">
+
+    
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="row">
+            <div class="card" style="width: 22rem;">
+              <img src="Paneer.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Paneer</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 22rem;">
+              <img src="Chowmein.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chowmein</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 22rem;">
+              <img src="Manchurian.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Manchurian</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="carousel-item">
+            <div class="row">
+            <div class="card" style="width: 22rem;">
+              <img src="Sev.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sev Sabji</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 22rem;">
+              <img src="Kachori.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kachori</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 22rem;">
+              <img src="Chole.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chole Bhature</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          </div>
+            
+          
+          <div class="carousel-item">
+            <div class="row">
+            <div class="card" style="width: 22rem;">
+              <img src="idli.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Idli Sambhar</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 22rem;">
+              <img src="Khammand.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Khammand Dhokla</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 22rem;">
+              <img src="Pulao.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Veg Pulao</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+  </div>
+  <div class="con">
+    <div class="location">
+      <h3>Our Location</h3>
+      <div class="loc">
+      <div class="loc-card bor" style="width: 18rem;">
+        <img src="Tirupati.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Jai Jinendra Sa</h5>
+          <p class="card-text">9754201529 <br> Near Railway Station <br> Mandsaur<br></p>
+          <a href="https://www.google.com/maps/place/New+Tirupati+Restaurant/@24.0761952,75.0722006,17z/data=!3m1!4b1!4m6!3m5!1s0x39642ea8f78a69e5:0x9fe64eec900095ea!8m2!3d24.0761952!4d75.0747755!16s%2Fg%2F11cnbm6wvp?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" class="btn btn-primary">Location</a>
+        </div>
+      </div>
+      <div class="loc-card bor" style="width: 18rem;">
+        <img src="Tirupati2.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Jai Jinendra Sa</h5>
+          <p class="card-text">8716539048 <br>Afim Goudam Road, near Railway Station, opp. Pf Railway Fatak<br> Mandsaur<br></p>
+          <a href="https://www.google.com/maps/dir//Afim+Goudam+Road,+near+Railway+Station,+opp.+Pf+Railway+Fatak,+Mandsaur,+Madhya+Pradesh+458001/@24.0761731,74.9923739,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39642ea8f78a69e5:0x9fe64eec900095ea!2m2!1d75.0747816!2d24.0762393?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" class="btn btn-primary">Location</a>
+        </div>
+      </div>
+      <div class="loc-card bor" style="width: 18rem;">
+        <img src="Tirupati3.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Jai Jinendra Sa</h5>
+          <p class="card-text">7354947798 <br>338C+357, Kalakhet<br> Mandsaur<br></p>
+          <a href="https://www.google.com/maps/dir//338C%2B357,+Kalakhet,+Mandsaur,+Madhya+Pradesh+458002/@24.0651416,74.9880311,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39642f00cef37937:0x98e34dd1f6dcf717!2m2!1d75.0704288!2d24.0651618?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" class="btn btn-primary">Location</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="con">
+    <footer class="footer">
+      Copyright &copy; 2025 Jai Jinendra Sa Family Restaurant by webonlyweb.
+    </footer>
+  </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script> -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

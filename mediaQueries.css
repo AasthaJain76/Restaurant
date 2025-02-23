@@ -1,0 +1,66 @@
+@media screen and (max-width:991px){
+    .icon{
+        display:block;
+        margin-right: 20px;
+    }
+    .navbar{
+        overflow:initial;
+    }
+    .nav-options{
+        flex-direction: column;
+        position: absolute;
+        background-color: white;
+        right:-100%;
+        top:100%;
+        transition:0.2s ease-in-out;
+        width:30%;
+    }
+    .active{
+        right:0;
+    } 
+    
+    .extra{
+        right:0%;
+        top:0%;
+    }
+    .Restaurant-name{
+        font-size:25px;
+    }
+    
+    .nav-options a{
+        color: black;
+        font-size:10px;
+        text-align:center;
+    }
+    .loc-card{
+        width: 40rem;
+        margin-top:20px;
+    }
+    .loc{
+        flex-wrap: wrap;
+    }
+    .card{
+        margin-top:20px;
+    }
+    .footer{
+        text-align:center;
+    }
+    .c{
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .photo{
+        height: 200px;
+        position:relative;
+        bottom:40px;
+    }
+    .aboutHead{
+        font-size:25px;
+    }
+    .description p{
+        position: relative;
+        bottom:50px;
+        font-size:15px;
+        
+    }
+}
